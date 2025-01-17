@@ -1,4 +1,4 @@
-# expenses-management-system
+# Personal-expenses-management-system
 
 
 # Purpose
