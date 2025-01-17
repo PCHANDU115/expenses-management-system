@@ -16,23 +16,23 @@ Categorize and store expense details (description, category, amount, and date) i
 Allow users to filter expenses within a specific date range.
 Display interactive bar charts summarizing expenses by category.
 # Implementation Steps
-# Database Setup:
+# 1.Database Setup:
 
 A SQLite database is created to store expenses.
 A table named expenses is used to store the following fields: description, category, amount, and date.
-# Expense Addition:
+# 2.Expense Addition:
 
 Users can input expense details (category, amount, and date) via a form.
 The data is validated and stored in the database.
-# Date Range Filtering:
+# 3.Date Range Filtering:
 
 Users can specify a start and end date to fetch expenses within that range.
 The filtered data is retrieved from the database for further processing.
-# Data Visualization:
+# 4.Data Visualization:
 
 Expenses are visualized as a bar chart using Matplotlib and Seaborn.
 The graph displays total expenses by category, providing insights into spending patterns.
-# User Interface:
+# 5.User Interface:
 
 A user-friendly Tkinter-based GUI facilitates seamless data input and visualization.
 Interactive buttons and input fields allow easy navigation and operation.
